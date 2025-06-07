@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { carsDetails } from "../../data/carDetailsData";
 import './carDetails.css';
-import { FaUser, FaSuitcase, FaCar, FaWrench, FaGasPump } from "react-icons/fa";
+import {  FaCar, } from "react-icons/fa";
 
 const CarDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -25,10 +25,6 @@ const CarDetail = () => {
 
 <div className="car-specs">
         <div><FaCar /> Alfa Yılı: {car.model}</div>
-        <div><FaWrench /> Vites Türü: {car.gear}</div>
-        <div><FaGasPump /> Yakıt Tipi: {car.fuel}</div>
-        <div><FaUser /> Kapasite: {car.seats} Kişi</div>
-        <div><FaSuitcase /> Bagaj: {car.trunk} Litre</div>
       </div>
       </div>
 
