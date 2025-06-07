@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './aboutUs.css';
-import { CgEnter } from 'react-icons/cg';
+
 
 function AboutUs() {
   const [activeTab, setActiveTab] = useState('tab1-content'); 

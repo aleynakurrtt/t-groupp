@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './whyChooseUs.css';
 import { FaCar, FaUserShield} from 'react-icons/fa';
 import { GiReceiveMoney } from "react-icons/gi";
