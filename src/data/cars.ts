@@ -13,7 +13,7 @@ export interface Car {
     {
       id: '2',
       name: 'CİTROEN C3 AİR',
-      image: '/public/araclar/citroen-c3-air/citroen-c3.png',
+      image: '/araclar/citroen-c3-air/citroen-c3.png',
     },
     {
       id: '3',

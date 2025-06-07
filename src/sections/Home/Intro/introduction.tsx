@@ -7,7 +7,7 @@ function Introduction() {
         <div className="travel-agency">
         <div className="hero-section">
   <div className="car-overlay">
-    <img src="/public/car-rent.jpg" alt="Siyah Araba" />
+    <img src="/car-rent.jpg" alt="Siyah Araba" />
   </div>
   <div className="hero-text">
     <h1>TUMER GROUP TRAVEL AGENCY</h1>

@@ -13,7 +13,7 @@ function NavRoot() {
       <Container>
         <Navbar.Brand>
           <Link to={'/'}> 
-            <img className='navbar-picture' src="/public/tumer-group-logo2.png" alt="tumer_group_logo" />
+            <img className='navbar-picture' src="/tumer-group-logo2.png" alt="tumer_group_logo" />
           </Link>
         </Navbar.Brand>
         

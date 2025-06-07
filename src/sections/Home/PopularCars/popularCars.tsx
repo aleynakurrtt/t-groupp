@@ -7,22 +7,22 @@ const cars = [
     {
       id: 1,
       name: 'FİAT EGEA',
-      image: '/public/araclar/fiat-egea/fiat-egea-1.jpg',
+      image: '/araclar/fiat-egea/fiat-egea-1.jpg',
     },
     {
       id: 2,
       name: 'RENAULT MEGANE',
-      image: '/public/araclar/renault-megane/renault-megane-1.jpg',
+      image: '/araclar/renault-megane/renault-megane-1.jpg',
     },
     {
       id: 3,
       name: 'SKODA SUPERB',
-      image: '/public/araclar/skoda-superb/skoda-superb-1.jpg',
+      image: '/araclar/skoda-superb/skoda-superb-1.jpg',
     },
     {
       id: 4,
       name: 'PEUGEOT 2008',
-      image: '/public/araclar/peugeot-2008/peugeot-2008-1.jpg',
+      image: '/araclar/peugeot-2008/peugeot-2008-1.jpg',
     },
   ];
 

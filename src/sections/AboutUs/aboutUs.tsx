@@ -93,14 +93,14 @@ function AboutUs() {
         <h2>ORTAKLARIMIZ</h2>
          
          <div className='partners'>
-            <img src="/public/ciragan-palace-kempinski-istanbul-logo-vector-Photoroom.png" alt="" />
-            <img src="/public/conrad_hotels-removebg-preview.png" alt="" />
-            <img src="/public/divan-removebg-preview.png" alt="" />
+            <img src="/ciragan-palace-kempinski-istanbul-logo-vector-Photoroom.png" alt="" />
+            <img src="/conrad_hotels-removebg-preview.png" alt="" />
+            <img src="/divan-removebg-preview.png" alt="" />
          </div>
          <div className='partners'>
-            <img src="/public/four_seasons-removebg-preview.png" alt="" />
-            <img src="/public/hilton_istanbul-removebg-preview.png" alt="" />
-            <img src="/public/pera_palace-removebg-preview.png" alt="" />
+            <img src="/four_seasons-removebg-preview.png" alt="" />
+            <img src="/hilton_istanbul-removebg-preview.png" alt="" />
+            <img src="/pera_palace-removebg-preview.png" alt="" />
          </div>
       </div>
     </div>
