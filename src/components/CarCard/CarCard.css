@@ -1,0 +1,31 @@
+
+.car-card-1 {
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+   
+  }
+  
+  .car-card-.car-card-1 {
+    transform: scale(1.03);
+  }
+  
+  .car-card-1 img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+
+  
+  .car-card-1 button {
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

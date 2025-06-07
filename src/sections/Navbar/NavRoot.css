@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #2c2c2c; /* Koyu gri arka plan */
+    padding: 5px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Alt gölge efekti */
+    transition: all 0.3s ease-in-out;
+  }
+.navbar-picture{
+    width: 200px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+.nav-link{
+    color: rgb(247, 243, 243);
+    margin-right: 10px;
+}
+.nav-link:hover{
+    color: white;
+}
+.all-icons{
+    display: flex;
+    justify-content: end;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.icons a img:hover {
+    
+    width: 25px;
+}
+
+
+.icons img{
+    width: 20px;
+}
+
+.navbar-link{
+    border-color: rgb(250, 249, 249);
+}
+
+
+.navbar-link .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
