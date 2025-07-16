@@ -2,12 +2,15 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './contactUs.css'
 
 function ContactUs() {
+	const emailAddress = "info@tumergroup.com.tr";
+	const phoneNumber = "905300622121"; 
+    const numberPhone = "905539583031";
   return (
     <>
         <Container className='concatUs'>
       <Row>
 	  <Col>
-		<form action="https://formsubmit.co/aleynakurrtt@gmail.com" method="POST">
+		<form action="https://formsubmit.co/info@tumergroup.com.tr" method="POST">
         <div className="container">
 			<h2>İLETİŞİM</h2>
 	<div className="row input-container">
@@ -46,8 +49,26 @@ function ContactUs() {
 		<div className='all-phone'>
 		<div className='phone-number'>
 			<img src="/public/whatsapp.svg" alt="whatsapp" />
-			<p>+90 530 062 21 21</p>
-			<p>+90 553 958 30 31</p>
+			<p>
+            <a 
+          href={`https://wa.me/${905300622121}`} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{ textDecoration: 'underline', color:'white'}}
+        >
+          +90 530 062 21 21
+        </a>
+      </p>
+	  <p>
+            <a 
+          href={`https://wa.me/${905539583031}`} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{  color:'white',  textDecoration: 'underline'}}
+        >
+			+90 553 958 30 31
+			</a>
+      </p>
 		</div>
 		<div className='phone-number'>
 			<img src="/public/telephone.svg" alt="telephone" />
@@ -62,11 +83,13 @@ function ContactUs() {
 		</div>
 		<div className='phone-number'>
 			<img src="/public/mail.svg" alt="mail" />
-			<p>info@tumergroup.com.tr</p>
+			<a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color:'white'}}>
+            info@tumergroup.com.tr
+            </a>
 		</div>
 		</div>
 		<div>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.3090608090447!2d28.809475100000004!3d41.0622365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa59e19ae19cb%3A0x8d3ada755572bf18!2sTumer%20Group!5e0!3m2!1str!2str!4v1741547408788!5m2!1str!2str" width="595" height="250"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+		<iframe className='t-group-loca' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.3090608090447!2d28.809475100000004!3d41.0622365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa59e19ae19cb%3A0x8d3ada755572bf18!2sTumer%20Group!5e0!3m2!1str!2str!4v1741547408788!5m2!1str!2str" width="595" height="250"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 		<div className='location'>
 			<img src="/location.svg" alt="location" />
 			Ziya Gökalp Mah. Mall Of Istanbul AVM.

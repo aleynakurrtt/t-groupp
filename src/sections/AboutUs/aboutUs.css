@@ -1,148 +1,91 @@
 .allAbout {
-    margin-bottom: 90px;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin: 40px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .aboutUs {
-    display: flex;
-    gap: 50px;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
-.aboutUs .allPartner {
-    color: rgb(255, 254, 254);
-    box-shadow: inset 0px -5px 1px #727273, 6px 7px 3px rgba(66, 66, 66, 0.9);
-    border: 2px transparent;
-    padding: 10px 90px 20px 90px;
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
+.allPartner {
+  background-color: #2c2c2c;
+  color: #ccc;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
+.allPartner:hover,
 .allPartner.active {
-    background-color: #444;
-    color: white;
+  background-color: #7f7564;
+  color: #fff;
+  transform: translateY(-2px);
 }
 
-/* Metin stilleri */
+.company {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .company h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(248, 243, 243);
-    font-size: 35px;
-    font-weight: 600;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+  text-align: center;
+  font-size: 32px;
+  color: #f8f8f8;
+  margin-bottom: 24px;
 }
 
 .company p {
-    max-width: 95ch;
-    margin: 0 auto 15px auto;
-    color: rgb(180, 179, 179);
-    text-align: justify;
-    font-size: 16px;
+  max-width: 90ch;
+  margin: 0 auto 20px auto;
+  color: #ddd;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 .company span {
-    font-weight: 500;
-    color: white;
+  color: hsl(40, 9%, 25%);
+  font-weight: bold;
 }
 
-/* Ortaklarımız (logolar) */
 .partners {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .partners img {
-    width: 150px;
-    height: auto;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  transition: 0.3s;
 }
 
-/* 🔹 RESPONSIVE TASARIM (Masaüstü görüntüsünü bozmadan) */
-@media (max-width: 992px) {
-    .aboutUs {
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-    }
-  
-    .aboutUs .allPartner {
-      width: 100%;
-      max-width: 400px;
-      padding: 12px 20px;
-      font-size: 16px;
-    }
-  
-    .company h2 {
-      font-size: 28px;
-    }
-  
-    .company p {
-      font-size: 15px;
-      text-align: justify;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .partners {
-      justify-content: center;
-      gap: 15px;
-    }
-  
-    .partners img {
-      width: 120px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .aboutUs .allPartner {
-      max-width: 100%;
-      padding: 12px;
-      font-size: 15px;
-    }
-  
-    .company h2 {
-      font-size: 24px;
-    }
-  
-    .company p {
-      font-size: 14px;
-      max-width: 90%;
-    }
-  
-    .partners img {
-      width: 100px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .aboutUs .allPartner {
-      width: 100%;
-      padding: 10px 15px;
-      font-size: 14px;
-    }
-  
-    .company h2 {
-      font-size: 22px;
-    }
-  
-    .company p {
-      font-size: 13px;
-      max-width: 100%;
-    }
-  
-    .partners {
-      flex-direction: column;
-      gap: 12px;
-    }
-  
-    .partners img {
-      width: 80px;
-      margin: 0 auto;
-    }
-  }
+.partners img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}

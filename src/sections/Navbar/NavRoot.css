@@ -1,7 +1,7 @@
 .navbar {
-    background-color: #2c2c2c; /* Koyu gri arka plan */
+    background-color: #2c2c2c; 
     padding: 5px 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Alt gölge efekti */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
     transition: all 0.3s ease-in-out;
   }
 .navbar-picture{
@@ -28,7 +28,6 @@
 }
 
 .icons a img:hover {
-    
     width: 25px;
 }
 

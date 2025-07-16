@@ -23,7 +23,7 @@ function NavRoot() {
             <Link className='nav-link' to={'/'}>Ana Sayfa</Link>
             <Link className='nav-link' to={'/carRental'}>Araç Kiralama</Link>
             <NavDropdown title="Turlar" id="basic-nav-dropdown">
-              <NavDropdown.Item>Şehir İçi Turlar</NavDropdown.Item>
+              <NavDropdown.Item><Link to={'citytour'} >Şehir İçi Turlar</Link></NavDropdown.Item>
               <NavDropdown.Item>Şehir Dışı Turlar</NavDropdown.Item>
               <NavDropdown.Item>Sağlık Turları</NavDropdown.Item>
               <NavDropdown.Divider />

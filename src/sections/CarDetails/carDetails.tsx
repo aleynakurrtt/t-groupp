@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { carsDetails } from "../../data/carDetailsData";
 import './carDetails.css';
-import {  FaCar, } from "react-icons/fa";
 
 const CarDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -13,48 +12,43 @@ const CarDetail = () => {
   if (!car) return <div>Araç bulunamadı.</div>;
 
   return (
-    <div className="car-detail-page">
-
-    <h2 className="car-title">{car.name}</h2>
-
-      <div className="car-main-image">
-        <img
-          src={car.images[0]}
-          alt={car.name}
-        />
-
-<div className="car-specs">
-        <div><FaCar /> Alfa Yılı: {car.model}</div>
-      </div>
-      </div>
-
-      <div className="car-gallery">
-        {car.images.map((img, i) => (
-          <img
-            key={i}
-            src={img}
-            alt={`Galeri ${i + 1}`}
-            onClick={() =>
-              setSelectedImage(selectedImage === img ? null : img)
-            }
-          />
-        ))}
-      </div>
-
-
-      <div className="car-description">
-        <h3>Açıklama:</h3>
-        <p>{car.description || `${car.name} hakkında detaylı açıklama bulunamadı.`}</p>
-
-      </div>
-
-      {selectedImage && (
-        <div className="modal-overlay" onClick={() => setSelectedImage(null)}>
-          <img src={selectedImage} alt="Büyük görsel" className="modal-image" />
+    <div className="car-detail-container">
+      <div className="car-detail-left">
+        <div className="main-image-box">
+          <img src={selectedImage || car.images[0]} alt={car.name} className="main-image" />
         </div>
-      )}
+        <div className="image-gallery">
+          {car.images.map((img, i) => (
+            <img
+              key={i}
+              src={img}
+              alt={`Gallery ${i + 1}`}
+              onClick={() => setSelectedImage(img)}
+              className={`thumbnail ${selectedImage === img ? 'active' : ''}`}
+            />
+          ))}
+        </div>
+      </div>
+      <div className="car-detail-right">
+  <div className="text-content">
+    <h2 className="car-name">{car.name}</h2>
+    <p className="description-text">
+      {car.description || `${car.name} hakkında açıklama bulunamadı.`}
+    </p>
+    <div className="specs-section">
+      <div style={{display:'flex', gap:25}}> 
+      <p>🪑 {car.seats} Koltuk</p>
+      <p>⚙️ {car.transmission}</p>
+      </div>
+      <p>⛽ {car.fuelType}</p>
     </div>
-    
+    <Link to={'/contactUs'} className="button-group">
+    <button className="book-button">İLETİŞİME GEÇ </button>
+  </Link>
+  </div>
+</div>
+
+    </div>
   );
 };
 

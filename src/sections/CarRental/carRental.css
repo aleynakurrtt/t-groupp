@@ -1,21 +1,50 @@
-.car-rental-container {
-    background-color: rgba(17, 18, 18, 1);
-    min-height: 100vh;
-    padding: 40px 20px;
-    color: white;
-  }
+
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+
+ 
+.search-bar {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 10px 16px;
+
   
-  .car-rental-title {
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  width: 240px;
+}
+
+@media (max-width: 600px) {
+  .car-list {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .search-bar {
     text-align: center;
-    margin-bottom: 40px;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
+    margin: 15px 0;
   }
-  
-  .car-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
+
+  .search-bar input {
+    width: 90%;
   }
+
+  .car-card h3 {
+    font-size: 1rem;
+  }
+
+  .car-card button {
+    width: 100%;
+  }
+}

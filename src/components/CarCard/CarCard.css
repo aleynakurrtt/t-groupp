@@ -1,31 +1,58 @@
-
 .car-card-1 {
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-    color: white;
-   
-  }
-  
-  .car-card-.car-card-1 {
-    transform: scale(1.03);
-  }
-  
-  .car-card-1 img {
-    width: 100%;
-    max-height: 150px;
-    object-fit: contain;
-    margin-bottom: 15px;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card-1:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.car-card-1 img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.car-card-1 h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-family: "Libertinus Math", system-ui;
+}
+
+.car-card-1 button {
+  margin-top: 10px;
+  background-color: #969393;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.car-card-1 button:hover {
+  background-color: #e0e0e0;
+  color: #111;
+}
+
+@media (max-width: 600px) {
+  .car-card-1 h3 {
+    font-size: 1rem;
   }
 
-  
   .car-card-1 button {
-    margin-top: 10px;
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+    width: 50%;
   }
-  
+  .car-card-1 {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+}

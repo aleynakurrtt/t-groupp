@@ -5,6 +5,7 @@ import AboutUs from "./sections/AboutUs/aboutUs";
 import ContactUs from "./sections/ContactUs/contactUs";
 import CarRental from "./sections/CarRental/carRental";
 import CarDetails from "./sections/CarDetails/carDetails";
+import CityTour from "./sections/CityTour/cityTour";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
                 path: "contactUs",
                 element: <ContactUs/>
             },
+            {
+                path: "citytour",
+                element: <CityTour />,
+              },
 
         ]
       

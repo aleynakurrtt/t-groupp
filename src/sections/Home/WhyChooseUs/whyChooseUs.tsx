@@ -17,7 +17,7 @@ function WhyChooseUs() {
           </div>
           <div className="feature-box">
             <FaUserShield className="icon" />
-            <h4>Güvenilir Hizmet</h4>
+            <h4>GÜVENİLİR HİZMET</h4>
             <p>Tüm süreçlerde şeffaflık ve güven esasına dayalı profesyonel destek sağlıyoruz.</p>
           </div>
           <div className="feature-box">
