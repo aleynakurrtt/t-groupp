@@ -30,6 +30,18 @@
 .icons a img:hover {
     width: 25px;
 }
+.custom-dropdown .dropdown-menu {
+    background-color: #2c2c2c !important;
+  }
+  
+  .custom-dropdown .dropdown-item {
+    color: #fff !important;
+  }
+  
+  .custom-dropdown .dropdown-item:hover {
+    background-color: #444 !important;
+    color: #f39c12 !important;
+  }
 
 
 .icons img{
