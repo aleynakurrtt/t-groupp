@@ -51,7 +51,7 @@ function ContactUs() {
 			<img src="/public/whatsapp.svg" alt="whatsapp" />
 			<p>
             <a 
-          href={`https://wa.me/${905300622121}`} 
+          href={`https://wa.me/${phoneNumber}`} 
           target="_blank" 
           rel="noopener noreferrer" 
           style={{ textDecoration: 'underline', color:'white'}}
@@ -61,7 +61,7 @@ function ContactUs() {
       </p>
 	  <p>
             <a 
-          href={`https://wa.me/${905539583031}`} 
+          href={`https://wa.me/${numberPhone}`} 
           target="_blank" 
           rel="noopener noreferrer" 
           style={{  color:'white',  textDecoration: 'underline'}}
