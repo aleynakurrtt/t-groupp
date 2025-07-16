@@ -48,7 +48,7 @@ function ContactUs() {
         <Col>
 		<div className='all-phone'>
 		<div className='phone-number'>
-			<img src="/public/whatsapp.svg" alt="whatsapp" />
+			<img src="/whatsapp.svg" alt="whatsapp" />
 			<p>
             <a 
           href={`https://wa.me/${phoneNumber}`} 
@@ -71,18 +71,18 @@ function ContactUs() {
       </p>
 		</div>
 		<div className='phone-number'>
-			<img src="/public/telephone.svg" alt="telephone" />
+			<img src="/telephone.svg" alt="telephone" />
 			<p>+90 212 230 80 40</p>
 			<p>+90 212 230 80 50</p>
 		</div>
 		</div>
 		<div className='all-phone'>
 		<div className='phone-number'>
-			<img src="/public/printer.svg" alt="printer" />
+			<img src="/printer.svg" alt="printer" />
 			<p>+90 212 230 80 38</p>
 		</div>
 		<div className='phone-number'>
-			<img src="/public/mail.svg" alt="mail" />
+			<img src="/mail.svg" alt="mail" />
 			<a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color:'white'}}>
             info@tumergroup.com.tr
             </a>

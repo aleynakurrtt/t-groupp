@@ -7,6 +7,6 @@ body{
  @media screen and (max-width:460px) {
     body{
         background: rgb(87,87,89);
-        background: radial-gradient(circle, rgba(87,87,89,1) 0%, rgba(33,33,33,1) 35%, rgba(7,8,8,1) 100%);
+        background: radial-gradient( rgb(62, 62, 62) 0%, rgba(33,33,33,1) , rgba(7,8,8,1) 100%);
     }
  }

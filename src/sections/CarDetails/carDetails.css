@@ -11,7 +11,7 @@
 
 .car-detail-left {
   flex: 1.4;
-  min-width: 500px;
+  min-width: 350px;
 }
 
 
@@ -125,53 +125,23 @@
   background-color: white;
   color: black;
 }
-
 @media (max-width: 768px) {
   .car-detail-container {
     flex-direction: column;
     padding: 20px;
-  }
-
-  .car-detail-right {
-    margin-top: 30px;
-  }
-
-  .image-gallery {
-    justify-content: center;
+    gap: 40px;
   }
 
   .main-image {
     height: auto;
     max-height: 300px;
-  }
-
-  .thumbnail {
-    width: 80px;
-    height: 60px;
-  }
-}
-
-@media (max-width: 600px) {
-  .car-detail-container {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .car-detail-right {
-    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 10px;
   }
 
   .image-gallery {
     justify-content: center;
-  }
-
-  .main-image {
-    width: 90%;
-    height: 600px; 
-    border-radius: 12px;
-    object-fit: cover;
-    margin-top: 150px;
-    margin-left: 25px;
+    gap: 10px;
   }
 
   .thumbnail {
@@ -179,35 +149,70 @@
     height: 60px;
   }
 
-  .car-name{
-    position: relative;
-    top: -780px;
+  .car-detail-right {
+    margin-top: 20px;
+    padding: 0 10px;
   }
-  .thumbnail{
-    width: 150px;
-    height: 100%;
+
+  .car-name {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
   }
-  .description-text{
-    position: relative;
-    top: -120px;
-    max-width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 500;
+
+  .description-text {
+    font-size: 1rem;
+    text-align: justify;
+    color: #ccc;
+  }
+
+  .specs-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 20px;
+  }
+
+  .price-section {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+  }
+
+  .book-button,
+  .quote-button {
+    width: 90%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-image {
+    max-height: 250px;
+  }
+
+  .thumbnail {
+    width: 70px;
+    height: 50px;
+  }
+
+  .car-name {
     font-size: 1.5rem;
   }
-  .specs-section{
-    position: relative;
-    top: -120px;
-    margin-left: auto;
-    margin-right: auto;
-    display:flex;
-    gap: 20px;
+
+  .description-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
-  .book-button{
-    position: relative;
-    top: -120px;
-    margin-left: auto;
-    margin-right: auto;
+
+  .specs-section p {
+    font-size: 0.9rem;
   }
 }

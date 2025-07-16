@@ -133,7 +133,7 @@ input[type=checkbox]:checked + label {
 
 .phone-number {
     color: rgb(255, 254, 254);
-    box-shadow: inset 0px 1px 1px #727273, 6px 7px 3px rgba(66, 66, 66, 0.9);
+    box-shadow: inset 0px 1px 1px #727273, 6px 7px 3px #424242e6;
     border: 2px transparent;
     padding: 10px 40px 20px 40px;
     text-align: center; 
@@ -193,19 +193,17 @@ input[type=checkbox]:checked + label {
     margin-bottom: 65px;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 900px; 
-    margin-left: auto;
-    margin-right: auto;
+
    }
 
    .phone-number {
     color: rgb(255, 254, 254);
+    width: 300px;
     box-shadow: inset 0px 1px 1px #727273, 6px 7px 3px rgba(66, 66, 66, 0.9);
     border: 2px transparent;
     padding: 5px 20px 10px 20px;
     text-align: center; 
-    flex:  100px; 
+    flex:  70px; 
 
 }
 
@@ -219,12 +217,36 @@ input[type=checkbox]:checked + label {
     font-size: 1.5rem;
 }
 .t-group-loca{
-    width: 100%;
+    width: 410px;
+    margin-left: 130px;
 }
 
 .location{
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-left: 145px;
+    max-width: 95vw;
+}
+
+.styled-input{
+    float:left;
+    width: 300px;
+    margin: 1rem 10rem;
+    position:relative;
+    border-radius: 4px;
+}
+
+#first_name{
+    width: 300px;
+}
+
+#message{
+    width: 300px;
+}
+
+.submit-btn{
+    width: 300px;
+    margin-left: 160px;
 }
 }
 

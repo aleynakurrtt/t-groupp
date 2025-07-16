@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import { cars } from "../../data/cars";
 import CarCard from '../../components/CarCard/CarCard';
-import "./CarRental.css";
+import "./carRental.css";
 
 const CarRental = () => {
   const [search, setSearch] = useState("");

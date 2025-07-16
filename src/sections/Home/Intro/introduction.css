@@ -61,7 +61,7 @@
 
 @media only screen and (max-width: 600px) {
   .hero-section {
-    min-height: 40dvh;
+    min-height: 60dvh;
     padding: 20px;
     background: linear-gradient(to bottom, #111, #000);
   }
@@ -69,6 +69,7 @@
  
   .hero-text h1 {
     font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 1rem;
   }
 
@@ -78,8 +79,9 @@
   }
 
   .hero-button {
-    padding: 15px 20px;
-    font-size: 1.5rem;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 500;
   }
 
   .car-overlay {
