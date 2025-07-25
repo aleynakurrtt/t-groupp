@@ -12,7 +12,7 @@ function AllTours() {
     <h2 className="tours-title">{t('tours.ourTours')}</h2>
     <div className="tour-cards">
       <div className="tour-card">
-        <img src="/public/sehir-ici-tur.jpg" alt="Şehir İçi Tur" className="tour-image" />
+        <img src="/sehir-ici-tur.jpg" alt="Şehir İçi Tur" className="tour-image" />
         <div className="tour-content">
           <h3>{t('tours.cityTour')}</h3>
           <p>{t('tours.inİstanbul')}</p>
@@ -21,7 +21,7 @@ function AllTours() {
       </div>
 
       <div className="tour-card">
-        <img src="/public/sehir-dısı-tur.jpg" alt="Şehir Dışı Tur" className="tour-image" />
+        <img src="/sehir-dısı-tur.jpg" alt="Şehir Dışı Tur" className="tour-image" />
         <div className="tour-content">
           <h3>{t('tours.outOfTown')}</h3>
           <p>{t('tours.outOfTour')}</p>
