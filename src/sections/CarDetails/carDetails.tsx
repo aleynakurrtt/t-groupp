@@ -42,7 +42,7 @@ const CarDetail = () => {
       </div>
       <p>⛽ {car.fuelType}</p>
     </div>
-    <Link to={'/contactUs'} className="button-group">
+    <Link to={'/iletisim'} className="button-group">
     <button className="book-button">İLETİŞİME GEÇ </button>
   </Link>
   </div>

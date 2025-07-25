@@ -45,49 +45,32 @@ function ContactUs() {
     </div>
 	</form>
     </Col>
-        <Col>
-		<div className='all-phone'>
-		<div className='phone-number'>
-			<img src="/whatsapp.svg" alt="whatsapp" />
-			<p>
-            <a 
-          href={`https://wa.me/${phoneNumber}`} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          style={{ textDecoration: 'underline', color:'white'}}
-        >
-          +90 530 062 21 21
-        </a>
-      </p>
-	  <p>
-            <a 
-          href={`https://wa.me/${numberPhone}`} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          style={{  color:'white',  textDecoration: 'underline'}}
-        >
-			+90 553 958 30 31
-			</a>
-      </p>
-		</div>
-		<div className='phone-number'>
-			<img src="/telephone.svg" alt="telephone" />
-			<p>+90 212 230 80 40</p>
-			<p>+90 212 230 80 50</p>
-		</div>
-		</div>
-		<div className='all-phone'>
-		<div className='phone-number'>
-			<img src="/printer.svg" alt="printer" />
-			<p>+90 212 230 80 38</p>
-		</div>
-		<div className='phone-number'>
-			<img src="/mail.svg" alt="mail" />
-			<a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color:'white'}}>
-            info@tumergroup.com.tr
-            </a>
-		</div>
-		</div>
+	<Col>
+  <div className='all-phone'>
+    <div className='phone-number modern-box'>
+      <img src="/whatsapp.svg" alt="whatsapp" />
+      <a href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer">+90 530 062 21 21</a>
+      <a href={`https://wa.me/${numberPhone}`} target="_blank" rel="noopener noreferrer">+90 553 958 30 31</a>
+    </div>
+    <div className='phone-number modern-box'>
+      <img src="/telephone.svg" alt="telephone" />
+      <p>+90 212 230 80 40</p>
+      <p>+90 212 230 80 50</p>
+    </div>
+  </div>
+
+  <div className='all-phone'>
+    <div className='phone-number modern-box'>
+      <img src="/printer.svg" alt="printer" />
+      <p>+90 212 230 80 38</p>
+    </div>
+    <div className='phone-number modern-box'>
+      <img src="/mail.svg" alt="mail" />
+      <a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer">
+        info@tumergroup.com.tr
+      </a>
+    </div>
+  </div>
 		<div>
 		<iframe className='t-group-loca' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.3090608090447!2d28.809475100000004!3d41.0622365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa59e19ae19cb%3A0x8d3ada755572bf18!2sTumer%20Group!5e0!3m2!1str!2str!4v1741547408788!5m2!1str!2str" width="595" height="250"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 		<div className='location'>

@@ -62,7 +62,7 @@ export const carsDetails: CarsDetail[] = [
       id: "dacia-sandero",
       name: "DACİA SANDERO ",
       model: "SANDERO",
-      description: "Dinamik ön tasarımı, yepyeni jantları ve yerden yüksekliği modele güçlü bir SUV duruşu kazandırıyor. Yeni Y şeklinde LED farlar, ön tasarıma kattığı derinlik sayesinde modelin karakterini daha da güçlendiriyor.Seyahat ederken çok eşya taşıyor musunuz? Katlanabilir arka koltuklar daha geniş bir bagaj hacmi elde etmenizi sağlar.",
+      description: "Seyahat ederken çok eşya taşıyor musunuz? Katlanabilir arka koltuklar daha geniş bir bagaj hacmi elde etmenizi sağlar.",
       seats:7,
       transmission: "Otomatik Vites",
       fuelType: "Benzinli",

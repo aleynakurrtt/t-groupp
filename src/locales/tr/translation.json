@@ -1,0 +1,112 @@
+{   
+    "hero": {
+      "title": "TUMER GROUP TRAVEL AGENCY",
+      "subtitle": "Konforlu, güvenli ve şık araç kiralama deneyimi",
+      "button": "Araçları Keşfet"
+    },
+    "navbar": {
+    "home": "Ana Sayfa",
+    "rental": "Araç Kiralama",
+    "tours": "Turlar",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+    },
+    "popularCar":{
+        "popular":"Popüler Araçlar",
+        "showMore":"Daha fazlasını göster"
+    },
+    "whyChooseUs":{
+      "whyChoose":"NEDEN BİZİ SEÇMELİSİNİZ?",
+      "largeVehicles":"GENİŞ ARAÇ YELPAZESİ",
+      "offerOptions":"Her ihtiyaca uygun geniş araç seçenekleri sunuyoruz.",
+      "reService":"GÜVENİLİR HİZMET",
+      "profSupport":"Tüm süreçlerde şeffaflık ve güven esasına dayalı profesyonel destek sağlıyoruz.",
+      "price":"HESAPLI FİYATLAR",
+      "afforPrice":"Kaliteli hizmeti en uygun fiyatlara sunmaktayız."
+    },
+    "reviews":{
+        "review":"İncele"
+    },
+    "tours":{
+        "ourTours":"Turlarımız",
+        "cityTour":"Şehir İçi Tur",
+        "inİstanbul":"İstanbul içinde konforlu ve rehberli şehir içi turlar ile unutulmaz bir deneyim yaşayın.",
+        "outOfTown":"Şehir Dışı Tur",
+        "outOfTour":"Konforlu araçlarımızla Türkiye'nin farklı şehirlerine günübirlik veya konaklamalı geziler. ",
+        "detail":"Detay"
+        },
+        "cityTour": {
+            "title": "Şehir İçi Tur",
+            "subtitle": "İstanbul’un her köşesini bizimle keşfedin!",
+            "aboutTitle": "Tur Hakkında",
+            "aboutText": "Şehir içi tur hizmetimiz ile İstanbul’un tarihi, kültürel ve modern tüm noktalarına profesyonel şoförlerimiz eşliğinde ulaşabilirsiniz. İster alışveriş, ister tarihi bir gezi… Güzergah size özel!",
+            "highlights": {
+              "durationTitle": "Esnek Süre",
+              "durationText": "İstediğiniz saatlerde başlayıp bitirebilirsiniz.",
+              "routeTitle": "Tam Güzergah Özgürlüğü",
+              "routeText": "İstanbul içi her noktaya gitme özgürlüğü.",
+              "driverTitle": "Özel Şoför",
+              "driverText": "Deneyimli şoförlerimiz size eşlik eder."
+            },
+            "callToActionTitle": "Hemen Rezervasyon İçin",
+            "contactButton": "İLETİŞİME GEÇ"
+          },
+          
+            "outOfTownTour": {
+              "title": "Şehir Dışı Tur",
+              "subtitle": "Türkiye'nin her köşesini bizimle keşfedin!",
+              "aboutTitle": "Tur Hakkında",
+              "aboutText": "Şehir dışı tur hizmetimiz ile Türkiye'nin tarihi, kültürel ve modern tüm noktalarına profesyonel şoförlerimiz eşliğinde ulaşabilirsiniz. İster Trabzon ister Sapanca… Güzergah size özel!",
+              "highlights": {
+                "durationTitle": "Esnek Süre",
+                "durationText": "İstediğiniz saatlerde başlayıp bitirebilirsiniz.",
+                "routeTitle": "Tam Güzergah Özgürlüğü",
+                "routeText": "Türkiye'de her noktaya gitme özgürlüğü.",
+                "driverTitle": "Özel Şoför",
+                "driverText": "Deneyimli şoförlerimiz size eşlik eder."
+              },
+              "callToActionTitle": "Hemen Rezervasyon İçin",
+              "contactButton": "İLETİŞİME GEÇ"
+            },
+            "aboutUs": {
+                "tabs": {
+                  "about": "Hakkımızda",
+                  "services": "Faaliyetlerimiz",
+                  "partners": "Ortaklarımız"
+                },
+                "about": {
+                  "title": "HAKKIMIZDA",
+                  "content": [
+                    "Firmamız 20 yılı aşkın bir süredir gerçekleştirdiği profesyonel hayatına; 1995 yılında Dış Ticaret ve Erkek Giyim üzerine faaliyet gösteren TÜMER DIŞ TİCARET firmamız ile başlamıştır.",
+                    "Gelişen sektör ve doğurduğu ihtiyaçlarının sonucu; 2003 yılında profesyonel ekibimizi genişletip bünyemize İNVİTE (Doğan Tekstil) firmamızı ilave ettik.",
+                    "Büyüyen profesyonel ekibimiz, güçlü ve sağlam altyapımız, tecrübelerimiz ile sağlıklı yurt dışı bağlantılarımız, her zaman yeniliklere açık dünya görüşümüz ve müşteri memnuniyetini ön planda tutma isteğimiz ile 2013 yılında bünyemize; Gayrimenkul Alım – Satım ve Turizm firmalarımızı da ekleyerek tüm firmalarımızı TÜMER GROUP çatısı altında birleştirdik.",
+                    "TÜMER GROUP ve bünyesinde bulunan firmalar; başta Suudi Arabistan, Yemen, Kuveyt, Birleşik Arap Emirlikleri, Katar ve diğer tüm Ortadoğu ülkeleri ile yapmış olduğu uzun süreli, güvene dayalı sağlam iş ilişkileri sayesinde ülke ekonomisine de büyük katkı sağlamaktadır.",
+                    "TÜMER GROUP günümüzde de büyüme hızını kesmeden, yenilikçi ve profesyonel hayatında ilerlerken; müşteri memnuniyeti, dürüst çalışma ilkesi ve devlet ekonomisine yapmış olduğu katkı ile de sektörde daima en iyi ve en güvenilir firma olarak gelecekte de faaliyetlerinde hep bir adım önde olmaya devam edecektir.."
+                  ],
+                  "author": "MUHİTTİN UÇAR",
+                  "titlePosition": "TÜMER GROUP Yönetim Kurulu Başkanı"
+                },
+                "services": {
+                    "title": "FAALİYETLERİMİZ",
+                    "export": {
+                        "title": "DIŞ TİCARET:",
+                        "description": "Suudi Arabistan, Kuveyt, Katar, U.A.E ve diğer tüm Ortadoğu ülkelerinde bulunan mevcut müşteri ve yeni tüm müşteri potansiyelimize tekstil ihracatı ve danışmanlığı yapmaktadır."
+                      },
+                      "textile": {
+                        "title": "TEKSTİL İMÂLATI:",
+                        "description": "2003 Yılından bu yana Erkek Giyim sektöründe kaliteli, yenilikçi, sıra dışı ve özel tasarımlar Gömlek ve T-Shirt üretimi ile devam etmektedir."
+                      },
+                      "realEstate": {
+                        "title": "GAYRİMENKUL ALIM – SATIM:",
+                        "description": "Tekstil ve Dış Ticaret sektöründeki tecrübemiz, güvenilirliğimiz, kuvvetli altyapımız, mevcut konumumuz ve Yabancı Uyruklu müşteri portföyümüzden yola çıkarak tüm Yabancı Uyruklu müşterilere Gayrimenkul Alım – Satım işlemleri gerçekleştirilmektedir."
+                      },
+                      "tourism": {
+                        "title": "TURİZM:",
+                        "description": "Firmamızın müşterilerine ve konuklarına; havaalanı hizmeti, seçkin otellerde rezervasyon, araç kiralama, şehir turları ve rehberlik hizmetleri sunulmaktadır."
+                    }
+                },
+                "partners": {
+                  "title": "ORTAKLARIMIZ"
+              }
+            }
+  }

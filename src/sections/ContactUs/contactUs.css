@@ -144,6 +144,40 @@ input[type=checkbox]:checked + label {
     margin: 10px auto;
     max-width: 50px; 
 }
+.phone-number.modern-box {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.phone-number.modern-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+.phone-number.modern-box img {
+    max-width: 40px;
+    margin-bottom: 10px;
+    filter: brightness(1.2);
+}
+
+.phone-number.modern-box a,
+.phone-number.modern-box p {
+    display: block;
+    color: #e4e4e4;
+    margin: 5px 0;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.phone-number.modern-box a:hover {
+    color: #4b8cfb;
+    text-decoration: underline;
+}
 
 .location {
     display: flex;
@@ -217,23 +251,27 @@ input[type=checkbox]:checked + label {
     font-size: 1.5rem;
 }
 .t-group-loca{
-    width: 410px;
-    margin-left: 130px;
+    width: 390px;
+    margin-left: 150px;
 }
 
 .location{
     font-weight: 600;
     font-size: 1rem;
-    margin-left: 145px;
+    margin-left: 150px;
     max-width: 95vw;
 }
 
 .styled-input{
     float:left;
     width: 300px;
-    margin: 1rem 10rem;
+    margin: 1rem 11rem;
     position:relative;
     border-radius: 4px;
+}
+
+.input-container{
+    margin-right: 15px;
 }
 
 #first_name{
@@ -246,7 +284,7 @@ input[type=checkbox]:checked + label {
 
 .submit-btn{
     width: 300px;
-    margin-left: 160px;
+    margin-left: 170px;
 }
 }
 

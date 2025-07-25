@@ -1,0 +1,117 @@
+{
+    "hero": {
+      "title": "TUMER GROUP TRAVEL AGENCY",
+      "subtitle": "A comfortable, safe, and stylish car rental experience",
+      "button": "Discover Vehicles"
+    },
+    "navbar": {
+        "home": "Home",
+        "rental": "Car Rental",
+        "tours": "Tours",
+        "about": "About Us",
+        "contact": "Contact"
+      },
+      "popularCar":{
+          "popular":"Popular Tools",
+          "showMore":"Show more"
+      },
+       "whyChooseUs":{
+        "whyChoose":"WHY SHOULD YOU CHOOSE US?",
+        "largeVehicles":"WIDE RANGE OF VEHICLES",
+        "offerOptions":"We offer a wide range of vehicles to suit every need.",
+        "reService":"RELIABLE SERVICE",
+        "profSupport":"We provide professional support based on transparency and trust in all processes.",
+      "price":"AFFORDABLE PRICES",
+      "afforPrice":"We offer quality service at the most affordable prices."
+    },
+      "reviews":{
+        "review":"Review"
+    },
+    "tours":{
+        "ourTours":"Our Tours",
+        "cityTour":"City Tour",
+        "inİstanbul":"Have an unforgettable experience with comfortable and guided city tours in Istanbul.",
+        "outOfTown":"Out of City Tour",
+        "outOfTour":"Daily or overnight trips to different cities in Türkiye with our comfortable vehicles.",
+        "detail":"Detail"
+        },
+        "cityTour": {
+            "title": "City Tour",
+            "subtitle": "Discover every corner of Istanbul with us!",
+            "aboutTitle": "About the Tour",
+            "aboutText": "With our city tour service, you can reach all historical, cultural, and modern spots in Istanbul accompanied by our professional drivers. Whether it's shopping or a historical trip... The route is tailored for you!",
+            "highlights": {
+              "durationTitle": "Flexible Duration",
+              "durationText": "You can start and end at your desired times.",
+              "routeTitle": "Full Route Freedom",
+              "routeText": "Freedom to go anywhere within Istanbul.",
+              "driverTitle": "Private Driver",
+              "driverText": "Our experienced drivers will accompany you."
+            },
+            "callToActionTitle": "For Immediate Reservation",
+            "contactButton": "CONTACT US"
+          },
+            "outOfTownTour": {
+              "title": "Out of Town Tour",
+              "subtitle": "Discover every corner of Turkey with us!",
+              "aboutTitle": "About the Tour",
+              "aboutText": "With our out-of-town tour service, you can reach all historical, cultural, and modern destinations in Turkey accompanied by our professional drivers. Whether it's Trabzon or Sapanca… the route is up to you!",
+              "highlights": {
+                "durationTitle": "Flexible Duration",
+                "durationText": "You can start and end at your desired times.",
+                "routeTitle": "Full Route Freedom",
+                "routeText": "Freedom to go anywhere in Turkey.",
+                "driverTitle": "Private Driver",
+                "driverText": "Our experienced drivers will accompany you."
+              },
+              "callToActionTitle": "For Immediate Reservation",
+              "contactButton": "CONTACT US"
+            },
+            "aboutUs": {
+                "tabs": {
+                  "about": "About Us",
+                  "services": "Our Services",
+                  "partners": "Our Partners"
+                },
+                "about": {
+                  "title": "ABOUT US",
+                  "content": [
+                    "Our company started its professional journey over 20 years ago, with TÜMER DIŞ TİCARET in 1995, focusing on foreign trade and men's clothing.",
+                    "Due to the evolving sector and emerging needs, in 2003 we expanded our professional team and added INVITE (Doğan Tekstil) to our group.",
+                    "With our growing team, strong infrastructure, experience, and international connections, we added Real Estate and Tourism companies in 2013, uniting all under TÜMER GROUP.",
+                    "TÜMER GROUP and its companies have established long-term, trust-based business relationships with Saudi Arabia, Yemen, Kuwait, UAE, Qatar, and other Middle Eastern countries, contributing greatly to the national economy.",
+                    "TÜMER GROUP continues to grow with innovation and professionalism, maintaining customer satisfaction and honesty as core values, always staying ahead in the sector."
+                  ],
+                  "author": "MUHİTTİN UÇAR",
+                  "titlePosition": "Chairman of the Board, TÜMER GROUP"
+                },
+                "services": {
+                  "title": "OUR SERVICES",
+                  "items": [
+                    {
+                      "title": "FOREIGN TRADE",
+                      "description": "We export textiles and provide consultancy to both existing and potential customers in the Middle East."
+                    },
+                    {
+                      "title": "TEXTILE MANUFACTURING",
+                      "description": "Since 2003, we have been producing high-quality and innovative men's shirts and T-shirts."
+                    },
+                    {
+                      "title": "REAL ESTATE",
+                      "description": "We offer property buying and selling services for all foreign clients."
+                    },
+                    {
+                      "title": "TOURISM",
+                      "description": "We provide airport pickup, hotel reservations, car rental, and city tours for international guests."
+                    }
+                  ]
+                },
+                "partners": {
+                  "title": "OUR PARTNERS"
+                }
+              }
+          
+          
+       
+
+  }

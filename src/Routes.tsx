@@ -5,7 +5,10 @@ import AboutUs from "./sections/AboutUs/aboutUs";
 import ContactUs from "./sections/ContactUs/contactUs";
 import CarRental from "./sections/CarRental/carRental";
 import CarDetails from "./sections/CarDetails/carDetails";
-import CityTour from "./sections/CityTour/cityTour";
+import AllTours from "./sections/AllTours/AllTours";
+import CityTour from "./sections/AllTours/CityTour/CityTour";
+import OutOfTownTour from "./sections/AllTours/OutOfTownTour/OutOfTownTour";
+
 
 const router = createBrowserRouter([
     {
@@ -17,25 +20,34 @@ const router = createBrowserRouter([
                 element: <Home/>,
             },
             {
-                path: "carRental",
+                path: "arackiralama",
                 element: <CarRental />,
             },
             {
-                path: "carRental/:id",
+                path: "arackiralama/:id",
                 element: <CarDetails />,
               },
             {
-                path: "aboutUs",
+                path: "hakkimizda",
                 element: <AboutUs />
             },
             {
-                path: "contactUs",
+                path: "iletisim",
                 element: <ContactUs/>
             },
             {
-                path: "citytour",
-                element: <CityTour />,
-              },
+                path: "turlar",
+                element: <AllTours/>
+            },
+            {
+                path: "sehir-ici-tur",
+                element: <CityTour/>
+            },
+            {
+                path: "sehir-disi-tur",
+                element: <OutOfTownTour/>
+            },
+
 
         ]
       
