@@ -87,24 +87,22 @@
                 },
                 "services": {
                   "title": "OUR SERVICES",
-                  "items": [
-                    {
-                      "title": "FOREIGN TRADE",
-                      "description": "We export textiles and provide consultancy to both existing and potential customers in the Middle East."
-                    },
-                    {
-                      "title": "TEXTILE MANUFACTURING",
-                      "description": "Since 2003, we have been producing high-quality and innovative men's shirts and T-shirts."
-                    },
-                    {
-                      "title": "REAL ESTATE",
-                      "description": "We offer property buying and selling services for all foreign clients."
-                    },
-                    {
-                      "title": "TOURISM",
-                      "description": "We provide airport pickup, hotel reservations, car rental, and city tours for international guests."
-                    }
-                  ]
+                  "export": {
+                    "title": "EXPORT:",
+                    "description": "We provide textile export and consultancy services to existing and potential customers in Saudi Arabia, Kuwait, Qatar, U.A.E, and other Middle Eastern countries."
+                  },
+                  "textile": {
+                    "title": "TEXTILE PRODUCTION:",
+                    "description": "Since 2003, we have been producing shirts and t-shirts with high quality, innovative and unique designs in the men's fashion sector."
+                  },
+                  "realEstate": {
+                    "title": "REAL ESTATE PURCHASE AND SALE:",
+                    "description": "Using our experience and network in foreign trade and textiles, we offer real estate purchase and sale services for our foreign clients."
+                  },
+                  "tourism": {
+                    "title": "TOURISM:",
+                    "description": "We provide airport transfer, hotel reservation, car rental, city tours, and guidance services to our clients and their guests."
+                  }
                 },
                 "partners": {
                   "title": "OUR PARTNERS"

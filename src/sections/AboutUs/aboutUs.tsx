@@ -38,9 +38,9 @@ function AboutUs() {
 
       <div className="company" id="tab1-content" style={{ display: activeTab === 'tab1-content' ? 'block' : 'none' }}>
         <h2>{t('aboutUs.about.title')}</h2>
-        {(t('aboutUs.about.content', { returnObjects: true }) as string[]).map((paragraph, index) => (
-  <p key={index}>{paragraph}</p>
-))}
+        {paragraph.map((p, index) => (
+        <p key={index}>{p}</p>
+          ))}
         <p style={{ fontWeight: 'bold', display: 'flex', justifyContent: 'center' }}>
           {t('aboutUs.about.author')}
         </p>
